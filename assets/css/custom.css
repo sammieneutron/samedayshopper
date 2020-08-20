@@ -1,0 +1,65 @@
+/* Custom CSS */
+
+.input-icons i { 
+    position: absolute; 
+} 
+  
+.input-icons { 
+    width: 100%; 
+    margin-bottom: 10px; 
+} 
+  
+.icon { 
+    padding: 15px; 
+    right: 0;
+    margin-right: 15px;
+    /* color: rgb(98, 129, 98);  */
+    min-width: 50px; 
+    text-align: center; 
+} 
+
+.text-center2 li {
+    text-align: center;
+}
+
+
+.inner {
+    margin: 0 auto;
+  }
+
+@media(min-width: 768px){
+    .inner{
+        margin-left: 38%;
+    }
+}
+
+.vendors-list {
+    padding: 2rem 3rem;
+    border: 1px solid #e7e7e7;
+    /* display: flex;
+    justify-content: space-around; */
+    margin: 1.5rem 0; 
+}
+
+.vendors-list img {
+    width: 150px;
+}
+
+@media(max-width: 768px) {
+    .vendors-list img {
+        width: 100px;
+    }
+}
+/* @media(max-width: 768px){
+    .inner{
+        margin-left: 5%;
+    }
+} */
+
+.vendor-logo {
+    width: 200px !important;
+}
+
+.hidden {
+    display: none;
+}

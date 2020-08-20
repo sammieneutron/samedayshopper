@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Login/Register - Sameday Shopper - A one day shopping experience</title>
+
+    <meta name="keywords" content="Sameday Shopper" />
+    <meta name="description" content="Sameday Shopper">
+    <meta name="author" content="">
+        
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/images/icons/favicon.ico">
+    
+    
+    <script type="text/javascript">
+        WebFontConfig = {
+            google: { families: [ 'Open+Sans:300,400,600,700,800','Poppins:300,400,500,600,700', 'Oswald:400,700' ] }
+        };
+        (function(d) {
+            var wf = d.createElement('script'), s = d.scripts[0];
+            wf.src = 'assets/js/webfont.js';
+            wf.async = true;
+            s.parentNode.insertBefore(wf, s);
+        })(document);
+    </script>
+    
+    <!-- Plugins CSS File -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <!-- Main CSS File -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/vendor/fontawesome-free/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/custom.css">
+</head>
+<body>
+    <div class="page-wrapper">
+        <header class="header">
+            <div class="header-top">
+                <div class="container">
+                    <div class="header-left header-dropdowns">
+                        <div class="header-dropdown">
+                            <a href="#">USD</a>
+                            <div class="header-menu">
+                                <ul>
+                                    <li><a href="#">EUR</a></li>
+                                    <li><a href="#">USD</a></li>
+                                </ul>
+                            </div><!-- End .header-menu -->
+                        </div><!-- End .header-dropown -->
+
+
+
+                        <div class="header-dropdown">
+                            <a href="#">ENGLISH</a>
+                            <div class="header-menu">
+                                <ul>
+                                    <li><a href="#">ENGLISH</a></li>
+                                    <li><a href="#">FRENCH</a></li>
+                                </ul>
+                            </div><!-- End .header-menu -->
+                        </div><!-- End .header-dropown -->
+                    </div><!-- End .header-left -->
+
+                    <div class="header-right">
+                        <p class="welcome-msg">Welcome to Sameday Shopper! </p>
+
+                        <div class="header-dropdown dropdown-expanded">
+                            <a href="#">Links</a>
+                            <div class="header-menu">
+                                <ul>
+                                    <li><a href="my-account.html">MY ACCOUNT </a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="login.html" class="login-lik">LOG IN</a></li>
+                                </ul>
+                            </div><!-- End .header-menu -->
+                        </div><!-- End .header-dropown -->
+                    </div><!-- End .header-right -->
+                </div><!-- End .container -->
+            </div><!-- End .header-top -->
+
+            <div class="header-middle">
+                <div class="container">
+                    <div class="header-left">
+                        <button class="mobile-menu-toggler" type="button">
+                            <i class="icon-menu"></i>
+                        </button>
+                        <a href="index.html" class="logo">
+                            <img src="assets/images/Transparent-LOGO.png" width="90" alt="Logo">
+                        </a>
+                    </div><!-- End .header-left -->
+
+                    
+
+                    <div class="header-right">
+                        <a href="#" class="porto-icon"><i class="icon icon-heart"></i></a>
+
+                        <div class="dropdown cart-dropdown">
+                            <a href="#" class="dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-display="static">
+                                <i class="minicart-icon"></i>
+                                <span class="cart-count">2</span>
+                            </a>
+
+                            <div class="dropdown-menu" >
+                                <div class="dropdownmenu-wrapper">
+                                    <div class="dropdown-cart-header">
+                                        <span>2 Items</span>
+
+                                        <a href="cart.html">View Cart</a>
+                                    </div><!-- End .dropdown-cart-header -->
+                                    <div class="dropdown-cart-products">
+                                        <div class="product">
+                                            <div class="product-details">
+                                                <h4 class="product-title">
+                                                    <a href="product.html">Woman Ring</a>
+                                                </h4>
+
+                                                <span class="cart-product-info">
+                                                    <span class="cart-product-qty">1</span>
+                                                    x $99.00
+                                                </span>
+                                            </div><!-- End .product-details -->
+
+                                            <figure class="product-image-container">
+                                                <a href="product.html" class="product-image">
+                                                    <img src="assets/images/products/cart/product-1.jpg" alt="product">
+                                                </a>
+                                                <a href="#" class="btn-remove" title="Remove Product"><i class="icon-retweet"></i></a>
+                                            </figure>
+                                        </div><!-- End .product -->
+
+                                        <div class="product">
+                                            <div class="product-details">
+                                                <h4 class="product-title">
+                                                    <a href="product.html">Woman Necklace</a>
+                                                </h4>
+
+                                                <span class="cart-product-info">
+                                                    <span class="cart-product-qty">1</span>
+                                                    x $35.00
+                                                </span>
+                                            </div><!-- End .product-details -->
+
+                                            <figure class="product-image-container">
+                                                <a href="product.html" class="product-image">
+                                                    <img src="assets/images/products/cart/product-2.jpg" alt="product">
+                                                </a>
+                                                <a href="#" class="btn-remove" title="Remove Product"><i class="icon-retweet"></i></a>
+                                            </figure>
+                                        </div><!-- End .product -->
+                                    </div><!-- End .cart-product -->
+
+                                    <div class="dropdown-cart-total">
+                                        <span>Total</span>
+
+                                        <span class="cart-total-price">$134.00</span>
+                                    </div><!-- End .dropdown-cart-total -->
+
+                                    <div class="dropdown-cart-action">
+                                        <a href="checkout-shipping.html" class="btn btn-block">Checkout</a>
+                                    </div><!-- End .dropdown-cart-total -->
+                                </div><!-- End .dropdownmenu-wrapper -->
+                            </div><!-- End .dropdown-menu -->
+                        </div><!-- End .dropdown -->
+                    </div><!-- End .header-right -->
+                </div><!-- End .container -->
+            </div><!-- End .header-middle -->
+
+            <div class="header-bottom sticky-header">
+                <div class="container text-center2">
+                    <!-- End .header-left -->
+                    <nav class="main-nav text-center2">
+                        <ul class="menu sf-arrows text-center2">
+                            <li class="active"><a href="index.html">Home</a></li>
+                            <li class=""><a href="about.html">About</a></li>
+                            <li class=""><a href="my-account.html">My Account</a></li>
+                            <li class=""><a href="#">FAQ</a></li>
+                            <li class=""><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div><!-- End .header-bottom -->
+            </div><!-- End .header-bottom -->
+        </header><!-- End .header -->
+
+        <main class="main">
+            <nav aria-label="breadcrumb" class="breadcrumb-nav">
+                <div class="container">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Login</li>
+                    </ol>
+                </div><!-- End .container -->
+            </nav>
+
+            <div class="page-header">
+                <div class="container">
+                    <h1>Login and Create Account</h1>
+                </div><!-- End .container -->
+            </div><!-- End .page-header -->
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="heading">
+                            <h2 class="title">Login</h2>
+                            <p>If you have an account with us, please log in.</p>
+                        </div><!-- End .heading -->
+
+                        <form action="#">
+                            <input type="email" class="form-control" placeholder="Email Address" required>
+                            <input type="password" class="form-control" placeholder="Password" required>
+
+                            <div class="form-footer">
+                                <button type="submit" class="btn btn-primary">LOGIN</button>
+                                <a href="forgot-password.html" class="forget-pass"> Forgot your password?</a>
+                            </div><!-- End .form-footer -->
+                        </form>
+                    </div><!-- End .col-md-6 -->
+
+                    <div class="col-md-6">
+                        <div class="heading">
+                            <h2 class="title">Create An Account</h2>
+                            <p>By creating an account with our store, you will be able to move through the checkout process faster, store multiple shipping addresses, view and track your orders in your account and more.</p>
+                        </div><!-- End .heading -->
+
+                        <form action="#">
+                            <input type="text" class="form-control" placeholder="First Name" required>
+                            <input type="text" class="form-control" placeholder="Middle Name" required>
+                            <input type="text" class="form-control" placeholder="Last Name" required>
+
+                            <h2 class="title mb-2">Login information</h2>
+                            <input type="email" class="form-control" placeholder="Email Address" required>
+                            <input type="password" class="form-control" placeholder="Password" required>
+                            <input type="password" class="form-control" placeholder="Confirm Password" required>
+
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="newsletter-signup">
+                                <label class="custom-control-label" for="newsletter-signup">Sign up for our Newsletter</label>
+                            </div><!-- End .custom-checkbox -->
+
+                            <div class="form-footer">
+                                <button type="submit" class="btn btn-primary">Create Account</button>
+                            </div><!-- End .form-footer -->
+                        </form>
+                    </div><!-- End .col-md-6 -->
+                </div><!-- End .row -->
+            </div><!-- End .container -->
+
+            <div class="mb-5"></div><!-- margin -->
+        </main><!-- End .main -->
+
+        <footer class="footer">
+            <div class="footer-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <a href="#" class="widget-newsletter-title">Sign Up to Newsletter</a>
+                        </div>
+                        <div class="col-lg-4">
+                            <p class="widget-newsletter-content">Get all the latest information on Events, Sales and Offers.<br>
+                                <span class="widget-newsletter-content">Receive N500 coupon for first shopping.</span>
+                            </p>
+                        </div>
+                        <div class="col-lg-5">
+                            <form action="#">
+                                <div class="footer-submit-wrapper">
+                                    <input type="email" class="form-control" placeholder="Enter your Email address" required>
+                                    <button type="submit" class="btn">Subscribe</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="footer-middle   ">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                            <a href="index.html">
+                                <img src="assets/images/logo2.png" alt="Logo" width="90" class="mt-2">
+                            </a>
+                            <div class="row">
+                                <div class="col-sm-6 col-xl-4">
+                                    <div class="contact-widget phone">
+                                        <div style="display: inline-block;">
+                                            <h4 class="widget-title">call us now</h4>
+                                            <a href="#">+234 5678 890</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-xl-5">
+                                    <div class="contact-widget email">
+                                        <h4 class="widget-title" style="margin-bottom : .5rem;">e-mail address</h4>
+                                        <a href="mailto:info@samedayshopper.com">info@samedayshopper.com</a>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3">
+                                    <div class="contact-widget follow">
+                                        <h4 class="widget-title">follow us</h4>
+                                        <div class="social-icons">
+                                            <a href="#" class="social-icon" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                            <a href="#" class="social-icon" target="_blank"><i class="fab fa-twitter"></i></a>
+                                            <a href="#" class="social-icon" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                                        </div><!-- End .social-icons -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-md-6">
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <div class="widget">
+                                        <h4 class="widget-title">Categories</h4>
+                                        <ul class="links">
+                                            <li><a href="#">Fashion</a></li>
+                                            <li><a href="#">Electronics</a></li>
+                                            <li><a href="#">Gifts</a></li>
+                                            <li><a href="#">Garden</a></li>
+                                            <li><a href="#">Music</a></li>
+                                        </ul>
+                                    </div><!-- End .widget -->
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="widget">
+                                        <h4 class="widget-title">About</h4>
+                                        <ul class="links">
+                                            <li><a href="about.html">About Us</a></li>
+                                            <li><a href="contact.html">Contact Us</a></li>
+                                            <li><a href="#">All Collections</a></li>
+                                            <li><a href="#">Privacy policy</a></li>
+                                            <li><a href="#">Terms & Conditions</a></li>
+                                        </ul>
+                                    </div><!-- End .widget -->
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="widget">
+                                        <h4 class="widget-title">Customer Care</h4>
+                                        <ul class="links">
+                                            <li><a href="my-account.html">My Account</a></li>
+                                            <li><a href="">Wishlist</a></li>
+                                            <li><a href="">Shopping Cart</a></li>
+                                            <li><a href="#">Terms & Conditions</a></li>
+                                            <li><a href="#">FAQs</a></li>
+                                        </ul>
+                                    </div><!-- End .widget -->
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- End .row -->
+                </div><!-- End .footer-middle -->
+                <div class="footer-bottom">
+                    <p class="footer-copyright">Sameday Shopper. &copy;  2020.  All Rights Reserved</p>
+                    <img src="assets/images/payments_long.png" width="180px" style="max-height: 24px">
+                </div><!-- End .footer-bottom -->
+            </div>
+        </footer><!-- End .footer -->
+    </div><!-- End .page-wrapper -->
+
+    <div class="mobile-menu-overlay"></div><!-- End .mobil-menu-overlay -->
+
+    <div class="mobile-menu-container">
+        <div class="mobile-menu-wrapper">
+            <span class="mobile-menu-close"><i class="icon-retweet"></i></span>
+            <nav class="mobile-nav">
+                <ul class="mobile-menu">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li class=""><a href="about.html">About</a></li>
+                    <li class=""><a href="#">My Account</a></li>
+                    <li class=""><a href="#">FAQ</a></li>
+                    <li class=""><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav><!-- End .mobile-nav -->
+
+            <div class="social-icons">
+                <a href="#" class="social-icon" target="_blank"><i class="icon-facebook"></i></a>
+                <a href="#" class="social-icon" target="_blank"><i class="icon-twitter"></i></a>
+                <a href="#" class="social-icon" target="_blank"><i class="icon-instagram"></i></a>
+            </div><!-- End .social-icons -->
+        </div><!-- End .mobile-menu-wrapper -->
+    </div><!-- End .mobile-menu-container -->
+
+    <!-- newsletter-popup-form -->
+    <div class="newsletter-popup mfp-hide" id="newsletter-popup-for" style="background-image: url(assets/images/newsletter_popup_bg.jpg)">
+        <div class="newsletter-popup-content">
+            <img src="assets/images/logo2.png" alt="Logo" class="logo-newsletter">
+            <h2>BE THE FIRST TO KNOW</h2>
+            <p>Subscribe to the Porto eCommerce newsletter to receive timely updates from your favorite products.</p>
+            <form action="#">
+                <div class="input-group">
+                    <input type="email" class="form-control" id="newsletter-email" name="newsletter-email" placeholder="Email address" required>
+                    <input type="submit" class="btn" value="Go!">
+                </div><!-- End .from-group -->
+            </form>
+            <div class="newsletter-subscribe">
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" value="1">
+                        Don't show this popup again
+                    </label>
+                </div>
+            </div>
+        </div><!-- End .newsletter-popup-content -->
+    </div><!-- End .newsletter-popup -->
+
+    <!-- Add Cart Modal -->
+    <div class="modal fade" id="addCartModal" tabindex="-1" role="dialog" aria-labelledby="addCartModal" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-body add-cart-box text-center">
+            <p>You've just added this product to the<br>cart:</p>
+            <h4 id="productTitle"></h4>
+            <img src="" id="productImage" width="100" height="100" alt="adding cart image">
+            <div class="btn-actions">
+                <a href="cart.html"><button class="btn-primary">Go to cart page</button></a>
+                <a href="#"><button class="btn-primary" data-dismiss="modal">Continue</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <a id="scroll-top" href="#top" title="Top" role="button"><i class="icon-angle-up"></i></a>
+
+    <!-- Plugins JS File -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/plugins.min.js"></script>
+    <!-- <script src="assets/js/jquery.countdown/jquery.countdown.min.js"></script> -->
+
+    <!-- Main JS File -->
+    <!-- <script src="assets/js/main_init.min.js"></script> -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
